@@ -32,8 +32,8 @@ Rails/UniqueValidationWithoutIndex:
 RSpec/AnyInstance:
   Enabled: false
 
-RSpec/FactoryBot:
-  EnforcedStyle: n_times
+# RSpec/FactoryBot:
+#   EnforcedStyle: n_times
 
 RSpec/RepeatedExampleGroupBody:
   Enabled: false
@@ -47,11 +47,6 @@ Metrics/AbcSize:
   Max: 20
 
 Metrics/BlockLength:
-  IgnoredMethods:
-    - describe
-    - context
-    - define
-    - factory
   Exclude:
     - 'config/**/*'
     - 'db/migrate/*'
@@ -86,7 +81,7 @@ Style/MethodCallWithArgsParentheses:
     - 'vendor/**/*'
     - 'lib/**/*'
     - '**/Gemfile'
-    - !ruby/regexp /old_and_unused\.rb$/
+    # - !ruby/regexp /old_and_unused\.rb$/
 
 Lint/MissingSuper:
   Exclude:

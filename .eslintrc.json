@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "amd": true
+  },
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "plugins": [
+    "vue"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:vue/recommended",
+    "prettier/vue"
+  ],
+  "rules": {
+    "no-unused-vars": "off"
+  }
+}

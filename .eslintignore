@@ -1,0 +1,3 @@
+app/javascript/i18n/i18n.js
+app/javascript/i18n/en.js
+app/javascript/i18n/views/**/*.js
